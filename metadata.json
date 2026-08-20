@@ -1,0 +1,6 @@
+{
+  "name": "Maison Mono",
+  "description": "Maison Mono — Crafting for the Dreams. An inverted hierarchy digital atelier opening at the bottom Hero and ascending upward through Core Values, Case Studies, Engagement, and Summit Epilogue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

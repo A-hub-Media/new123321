@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@layer base {
+  :root {
+    --bg-base: #FFFBEB;
+    --color-primary: #322700;
+    --color-secondary: #977600;
+    --color-accent: #D9A900;
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  body {
+    background-color: #FFFBEB;
+    color: #322700;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Syne', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-tech {
+    font-family: 'Space Grotesk', monospace;
+  }
+
+  .font-script {
+    font-family: 'Alex Brush', 'Caveat', cursive;
+  }
+
+  .font-tagline {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, monospace;
+    letter-spacing: 0.28em;
+  }
+}
+
+/* Minimalist Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFBEB;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(151, 118, 0, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 169, 0, 0.7);
+}
+
+/* Subtle line separator */
+.divider-gold {
+  height: 1px;
+  background-color: rgba(151, 118, 0, 0.15);
+}
